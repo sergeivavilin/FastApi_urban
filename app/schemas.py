@@ -3,14 +3,14 @@ from pydantic import BaseModel
 
 class CreateUser(BaseModel):
     username: str
-    first_name: str
-    last_name: str
+    firstname: str
+    lastname: str
     age: int
 
 
 class UpdateUser(BaseModel):
-    first_name: str
-    last_name: str
+    firstname: str
+    lastname: str
     age: int
 
 
